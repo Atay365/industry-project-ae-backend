@@ -1,0 +1,581 @@
+{
+  "generalPhishingQuestions": [
+    {
+      "question": "What is phishing?",
+      "options": [
+        "A) A method used by hackers to catch fish online.",
+        "B) A technique where attackers trick users into providing personal information by pretending to be a trustworthy entity.",
+        "C) A type of antivirus software."
+      ],
+      "answer": "B) A technique where attackers trick users into providing personal information by pretending to be a trustworthy entity."
+    },
+    {
+      "question": "Which of the following is a common sign of a phishing email?",
+      "options": [
+        "A) The email comes from an unknown sender.",
+        "B) There are grammatical and spelling errors in the email.",
+        "C) The email contains urgent or threatening language.",
+        "D) All of the above."
+      ],
+      "answer": "D) All of the above."
+    },
+    {
+      "question": "What should you do if you receive an email asking for your banking login details?",
+      "options": [
+        "A) Reply with your details immediately.",
+        "B) Click the link in the email to verify its authenticity.",
+        "C) Contact your bank directly using a trusted communication method.",
+        "D) Forward the email to your friends."
+      ],
+      "answer": "C) Contact your bank directly using a trusted communication method."
+    },
+    {
+      "question": "How can you verify the authenticity of a website before entering your login information?",
+      "options": [
+        "A) Check the URL for https:// and a padlock icon.",
+        "B) Look for the website's contact information.",
+        "C) Ensure the website design looks professional.",
+        "D) Ask friends if they have used the website before."
+      ],
+      "answer": "A) Check the URL for https:// and a padlock icon."
+    }
+  ],
+  "generalSecurityQuestions": [
+    {
+      "question": "What is a strong password?",
+      "options": [
+        "A) Your birthdate combined with your name.",
+        "B) A password that is at least 8 characters long and includes a mix of letters, numbers, and symbols.",
+        "C) The word 'password' with a number at the end.",
+        "D) A password that you use for all your accounts."
+      ],
+      "answer": "B) A password that is at least 8 characters long and includes a mix of letters, numbers, and symbols."
+    },
+    {
+      "question": "What is two-factor authentication (2FA)?",
+      "options": [
+        "A) A method of logging in using two different usernames.",
+        "B) A security process where you provide two forms of identification before accessing an account.",
+        "C) A type of antivirus software.",
+        "D) A method of storing passwords."
+      ],
+      "answer": "B) A security process where you provide two forms of identification before accessing an account."
+    },
+    {
+      "question": "How often should you update your banking app and other software?",
+      "options": [
+        "A) Only when you encounter issues.",
+        "B) Once a year.",
+        "C) Whenever updates are available to ensure you have the latest security patches.",
+        "D) Never, updates are not necessary."
+      ],
+      "answer": "C) Whenever updates are available to ensure you have the latest security patches."
+    },
+    {
+      "question": "If your banking app account is compromised, what is the first thing you should do?",
+      "options": [
+        "A) Change your password immediately.",
+        "B) Ignore it and hope it gets resolved.",
+        "C) Post about it on social media.",
+        "D) Delete the app from your device."
+      ],
+      "answer": "A) Change your password immediately."
+    }
+  ],
+  "scenarioBasedQuestions": [
+    {
+      "scenario": "Suspicious Email",
+      "description": "You receive an email that appears to be from your bank. The email claims that there has been suspicious activity on your account and asks you to click a link to verify your account details. The email looks official, with your bank's logo and contact information.",
+      "questions": [
+        {
+          "question": "What should be your first step upon receiving this email?",
+          "options": [
+            "A) Click the link immediately to secure your account.",
+            "B) Reply to the email asking for more information.",
+            "C) Check the sender's email address and look for any signs of phishing.",
+            "D) Ignore the email and continue using your account normally."
+          ],
+          "answer": "C) Check the sender's email address and look for any signs of phishing."
+        },
+        {
+          "question": "If you suspect the email is a phishing attempt, what should you do next?",
+          "options": [
+            "A) Forward the email to your bank's official support email for verification.",
+            "B) Click the link to see where it leads.",
+            "C) Delete the email and forget about it.",
+            "D) Share the email on social media to warn others."
+          ],
+          "answer": "A) Forward the email to your bank's official support email for verification."
+        }
+      ]
+    },
+    {
+      "scenario": "Unusual Account Activity",
+      "description": "You receive a text message alert from your bank notifying you of a large withdrawal from your account that you did not authorize. The message includes a phone number to call if you did not make this transaction.",
+      "questions": [
+        {
+          "question": "What is the best course of action upon receiving this text message?",
+          "options": [
+            "A) Call the number provided in the text message immediately.",
+            "B) Log in to your online banking account through the official website or app to verify the transaction.",
+            "C) Ignore the message if you believe it's a mistake.",
+            "D) Send a text reply asking for more details."
+          ],
+          "answer": "B) Log in to your online banking account through the official website or app to verify the transaction."
+        },
+        {
+          "question": "If you confirm that the transaction is unauthorized, what should you do next?",
+          "options": [
+            "A) Report the transaction through your bank's official support channels.",
+            "B) Call the number in the text message.",
+            "C) Post about it on social media to alert others.",
+            "D) Change your bank immediately."
+          ],
+          "answer": "A) Report the transaction through your bank's official support channels."
+        }
+      ]
+    },
+    {
+      "scenario": "Phone Call from the Bank",
+      "description": "You receive a phone call from someone claiming to be from your bank's fraud department. They inform you of suspicious activity on your account and ask you to verify your account details, including your password, to confirm your identity.",
+      "questions": [
+        {
+          "question": "How should you handle this phone call?",
+          "options": [
+            "A) Provide the caller with your account details and password to resolve the issue quickly.",
+            "B) Hang up the call and contact your bank's official customer service number to verify the claim.",
+            "C) Engage in a conversation to gather more information from the caller.",
+            "D) Ignore the call and wait for a follow-up email."
+          ],
+          "answer": "B) Hang up the call and contact your bank's official customer service number to verify the claim."
+        },
+        {
+          "question": "If the caller insists they need your password, what should you do?",
+          "options": [
+            "A) Give them a fake password to test their reaction.",
+            "B) Reiterate that you do not share passwords over the phone and report the call to your bank.",
+            "C) Ask the caller to send an email for verification.",
+            "D) Provide your password to avoid account lockout."
+          ],
+          "answer": "B) Reiterate that you do not share passwords over the phone and report the call to your bank."
+        }
+      ]
+    },
+    {
+      "scenario": "Unsecured Wi-Fi Network",
+      "description": "You are traveling and need to check your bank account urgently. You find a free public Wi-Fi network at a coffee shop and consider using it to log in to your banking app.",
+      "questions": [
+        {
+          "question": "What should you consider before using the public Wi-Fi network?",
+          "options": [
+            "A) Whether the Wi-Fi signal is strong enough.",
+            "B) The security risks of using public Wi-Fi for accessing sensitive information.",
+            "C) The speed of the Wi-Fi connection.",
+            "D) If the coffee shop has good reviews."
+          ],
+          "answer": "B) The security risks of using public Wi-Fi for accessing sensitive information."
+        },
+        {
+          "question": "What is the safest way to access your bank account in this scenario?",
+          "options": [
+            "A) Use the public Wi-Fi network and ensure you log out immediately after.",
+            "B) Connect to a VPN before accessing your bank account.",
+            "C) Ask the coffee shop staff if their Wi-Fi is secure.",
+            "D) Wait until you can connect to a secure, private network."
+          ],
+          "answer": "B) Connect to a VPN before accessing your bank account."
+        }
+      ]
+    },
+    {
+      "scenario": "Social Engineering Attempt",
+      "description": "You receive a friend request on social media from someone who claims to be a representative of your bank. They offer you a special promotion if you share your account details with them.",
+      "questions": [
+        {
+          "question": "How should you respond to this request?",
+          "options": [
+            "A) Accept the friend request and provide your account details to get the promotion.",
+            "B) Ignore the request and report the account to the social media platform.",
+            "C) Ask for more information about the promotion before sharing any details.",
+            "D) Post a public comment asking if anyone else has received the same request."
+          ],
+          "answer": "B) Ignore the request and report the account to the social media platform."
+        },
+        {
+          "question": "Why is it risky to share your account details with someone on social media?",
+          "options": [
+            "A) Because social media platforms are not secure for sharing sensitive information.",
+            "B) Because your friends might see your account details.",
+            "C) Because the promotion might not be real.",
+            "D) Because it can lead to spam messages."
+          ],
+          "answer": "A) Because social media platforms are not secure for sharing sensitive information."
+        }
+      ]
+    },
+    {
+      "scenario": "Public Computer Use",
+      "description": "You are traveling and need to check your bank account. The only available option is a public computer at a library.",
+      "questions": [
+        {
+          "question": "What precautions should you take before using the public computer?",
+          "options": [
+            "A) Ensure the computer has antivirus software installed.",
+            "B) Check if the computer has a secure connection (https).",
+            "C) Use a private browsing mode and log out of all accounts after use.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        },
+        {
+          "question": "Why is it risky to access your bank account from a public computer?",
+          "options": [
+            "A) Because public computers may have malware or keyloggers installed.",
+            "B) Because the internet speed might be slow.",
+            "C) Because other people might see your screen.",
+            "D) Because the computer might not have a good keyboard."
+          ],
+          "answer": "A) Because public computers may have malware or keyloggers installed."
+        }
+      ]
+    },
+    {
+      "scenario": "Fake Customer Support",
+      "description": "You receive a direct message on social media from an account that looks like your bank's official customer support. They claim there is an urgent issue with your account and ask you to provide your account number and password to verify your identity.",
+      "questions": [
+        {
+          "question": "What should you do when you receive this message?",
+          "options": [
+            "A) Provide your account number and password to resolve the issue quickly.",
+            "B) Ignore the message and block the account.",
+            "C) Verify the legitimacy of the account by contacting your bank directly.",
+            "D) Ask the sender to call you for verification."
+          ],
+          "answer": "C) Verify the legitimacy of the account by contacting your bank directly."
+        },
+        {
+          "question": "Why should you avoid providing your account information over social media?",
+          "options": [
+            "A) Social media platforms are not secure for sharing sensitive information.",
+            "B) Your friends might see your account information.",
+            "C) It could lead to receiving spam messages.",
+            "D) The social media account could be hacked."
+          ],
+          "answer": "A) Social media platforms are not secure for sharing sensitive information."
+        }
+      ]
+    },
+    {
+      "scenario": "Fake Bank Website",
+      "description": "You receive an email that looks like it’s from your bank, asking you to update your account information. The email contains a link to a website that looks almost identical to your bank's official site.",
+      "questions": [
+        {
+          "question": "What should you do before entering your details on the website?",
+          "options": [
+            "A) Enter your details to update your account information as requested.",
+            "B) Check the website's URL to ensure it matches your bank’s official URL.",
+            "C) Share the email with friends to see if they received the same request.",
+            "D) Print the email for your records."
+          ],
+          "answer": "B) Check the website's URL to ensure it matches your bank’s official URL."
+        },
+        {
+          "question": "If the URL looks suspicious or does not match your bank’s official website, what should you do?",
+          "options": [
+            "A) Enter your details anyway to see what happens.",
+            "B) Report the email and the website to your bank’s official support team.",
+            "C) Close the browser and ignore the email.",
+            "D) Save the website link for future reference."
+          ],
+          "answer": "B) Report the email and the website to your bank’s official support team."
+        }
+      ]
+    },
+    {
+      "scenario": "Phishing Text Message",
+      "description": "You receive a text message claiming to be from your bank, stating that your account has been locked due to suspicious activity. The message includes a link to a website where you can unlock your account by verifying your identity.",
+      "questions": [
+        {
+          "question": "How should you handle this text message?",
+          "options": [
+            "A) Click the link and follow the instructions to unlock your account.",
+            "B) Reply to the text message asking for more details.",
+            "C) Delete the message and contact your bank using a known, official phone number.",
+            "D) Forward the message to your friends to see if they received the same text."
+          ],
+          "answer": "C) Delete the message and contact your bank using a known, official phone number."
+        },
+        {
+          "question": "Why is it important not to click on links in unsolicited text messages?",
+          "options": [
+            "A) The link could lead to a malicious website designed to steal your personal information.",
+            "B) It could result in a virus being downloaded onto your device.",
+            "C) Your personal information could be compromised.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Phishing Email with Attachment",
+      "description": "You receive an email from what appears to be your bank, with an attached PDF file labeled 'Important Account Information.' The email urges you to open the attachment to view important updates about your account.",
+      "questions": [
+        {
+          "question": "What should you do upon receiving this email?",
+          "options": [
+            "A) Open the attachment to view the important account information.",
+            "B) Reply to the email asking for more details.",
+            "C) Verify the sender’s email address and contact your bank directly to confirm the legitimacy.",
+            "D) Forward the email to your friends to see if they received the same email."
+          ],
+          "answer": "C) Verify the sender’s email address and contact your bank directly to confirm the legitimacy."
+        },
+        {
+          "question": "Why is it risky to open email attachments from unknown or unexpected sources?",
+          "options": [
+            "A) The attachment could contain malware or a virus.",
+            "B) It might not display properly on your device.",
+            "C) The attachment could be too large to download.",
+            "D) The information might be outdated."
+          ],
+          "answer": "A) The attachment could contain malware or a virus."
+        }
+      ]
+    },
+    {
+      "scenario": "Fake Job Offer",
+      "description": "You receive an email from someone claiming to be a recruiter from a reputable company. They offer you a job and request your banking details to set up direct deposit for your salary.",
+      "questions": [
+        {
+          "question": "What should you do before providing any personal or banking information?",
+          "options": [
+            "A) Provide the information to secure the job offer.",
+            "B) Research the recruiter and company to verify the job offer's legitimacy.",
+            "C) Ask the recruiter to send more details about the job via email.",
+            "D) Share the job offer with your friends to see if anyone else received it."
+          ],
+          "answer": "B) Research the recruiter and company to verify the job offer's legitimacy."
+        },
+        {
+          "question": "Why is it important to verify unsolicited job offers before providing personal information?",
+          "options": [
+            "A) It could be a phishing attempt to steal your personal and financial information.",
+            "B) The job offer might not be real, and your information could be misused.",
+            "C) Scammers often use fake job offers to obtain sensitive data.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Social Media Scam",
+      "description": "You see a post on social media claiming your bank is offering a special reward for customers who complete a survey. The post includes a link to the survey and asks for your account details to receive the reward.",
+      "questions": [
+        {
+          "question": "How should you respond to this post?",
+          "options": [
+            "A) Click the link and complete the survey to receive the reward.",
+            "B) Share the post with your friends to let them know about the reward.",
+            "C) Verify the offer by visiting your bank’s official website or contacting customer support.",
+            "D) Ignore the post and continue browsing."
+          ],
+          "answer": "C) Verify the offer by visiting your bank’s official website or contacting customer support."
+        },
+        {
+          "question": "What are the risks of participating in such surveys on social media?",
+          "options": [
+            "A) Your personal and account information could be stolen.",
+            "B) The survey could be a phishing attempt to collect sensitive data.",
+            "C) Scammers could misuse your information for fraudulent activities.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Unexpected Password Reset",
+      "description": "You receive an email stating that a request to reset your banking app password was made. The email includes a link to reset your password. However, you did not initiate this request.",
+      "questions": [
+        {
+          "question": "What should you do upon receiving this email?",
+          "options": [
+            "A) Click the link to reset your password to prevent unauthorized access.",
+            "B) Ignore the email since you did not request a password reset.",
+            "C) Contact your bank directly to report the unauthorized password reset request.",
+            "D) Forward the email to your friends to see if anyone else received it."
+          ],
+          "answer": "C) Contact your bank directly to report the unauthorized password reset request."
+        },
+        {
+          "question": "Why is it important to act quickly if you receive an unexpected password reset email?",
+          "options": [
+            "A) It could be an indication that someone is trying to gain unauthorized access to your account.",
+            "B) Delaying action might result in your account being compromised.",
+            "C) Reporting it helps your bank take necessary security measures.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Fake Charity Donation",
+      "description": "You receive a phone call from someone claiming to represent a well-known charity. They say they are raising funds for a recent disaster relief effort and ask if you would like to make a donation over the phone using your credit card.",
+      "questions": [
+        {
+          "question": "How should you respond to this request?",
+          "options": [
+            "A) Provide your credit card information to make a donation.",
+            "B) Ask for more information about the charity and the disaster relief effort.",
+            "C) Politely decline and research the charity online to verify the call's legitimacy.",
+            "D) Ask the caller to send you an email with donation instructions."
+          ],
+          "answer": "C) Politely decline and research the charity online to verify the call's legitimacy."
+        },
+        {
+          "question": "Why is it risky to provide credit card information over the phone to unsolicited callers?",
+          "options": [
+            "A) The caller could be a scammer trying to steal your financial information.",
+            "B) You might not receive a receipt for your donation.",
+            "C) Your credit card might get charged twice.",
+            "D) The caller could make a mistake while recording your information."
+          ],
+          "answer": "A) The caller could be a scammer trying to steal your financial information."
+        }
+      ]
+    },
+    {
+      "scenario": "Grandparent Scam",
+      "description": "You receive a phone call from someone pretending to be your grandchild. They claim to be in trouble and need money urgently. They ask you to wire money or provide your bank account details to help them out.",
+      "questions": [
+        {
+          "question": "What should you do when you receive such a call?",
+          "options": [
+            "A) Send the money immediately to help your grandchild.",
+            "B) Ask the caller questions only your grandchild would know.",
+            "C) Hang up and call your grandchild or their parents to verify the story.",
+            "D) Provide your bank account details to wire the money quickly."
+          ],
+          "answer": "C) Hang up and call your grandchild or their parents to verify the story."
+        },
+        {
+          "question": "Why is it important to verify such urgent requests before taking action?",
+          "options": [
+            "A) The caller could be a scammer preying on your emotions.",
+            "B) Verifying helps ensure your grandchild is actually in trouble.",
+            "C) You protect your financial information from being stolen.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Medicare/Health Insurance Scam",
+      "description": "You receive an email or phone call from someone claiming to be from Medicare or your health insurance provider. They ask for your personal information, such as your Social Security number or Medicare ID, to 'update your records.'",
+      "questions": [
+        {
+          "question": "How should you handle this request?",
+          "options": [
+            "A) Provide the requested information to update your records.",
+            "B) Ask the caller to send you a letter by mail.",
+            "C) Hang up and call Medicare or your health insurance provider directly using a trusted number.",
+            "D) Forward the email to your friends for advice."
+          ],
+          "answer": "C) Hang up and call Medicare or your health insurance provider directly using a trusted number."
+        },
+        {
+          "question": "Why is it important not to share personal information with unsolicited callers or emails?",
+          "options": [
+            "A) Your personal information could be used for identity theft.",
+            "B) It might not be necessary to update your records.",
+            "C) The caller or email could be a scammer pretending to be from a legitimate organization.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Lottery/Sweepstakes Scam",
+      "description": "You receive a letter, email, or phone call informing you that you have won a large sum of money in a lottery or sweepstakes. To claim your prize, you are asked to pay a processing fee or provide your bank account details for the funds to be transferred.",
+      "questions": [
+        {
+          "question": "What should you do upon receiving this notification?",
+          "options": [
+            "A) Pay the processing fee to claim your prize.",
+            "B) Provide your bank account details to receive the funds.",
+            "C) Verify the legitimacy of the lottery or sweepstakes by researching it online and contacting the organization directly.",
+            "D) Share the good news with your friends and family."
+          ],
+          "answer": "C) Verify the legitimacy of the lottery or sweepstakes by researching it online and contacting the organization directly."
+        },
+        {
+          "question": "Why is it important to be cautious about unsolicited notifications of winning money?",
+          "options": [
+            "A) Scammers often use fake lottery or sweepstakes notifications to steal your money or personal information.",
+            "B) Legitimate lotteries or sweepstakes do not require payment of fees to claim prizes.",
+            "C) Your bank account information could be misused.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Romance Scam",
+      "description": "You meet someone on an online dating site who quickly expresses strong feelings for you. After a short period of communicating, they ask you to send money to help with a personal emergency or to visit you in person.",
+      "questions": [
+        {
+          "question": "How should you respond to this request?",
+          "options": [
+            "A) Send the money to help your new romantic interest.",
+            "B) Ask for more details about their situation and try to verify their story.",
+            "C) Be cautious and avoid sending money to someone you have only met online.",
+            "D) Share the situation with your friends for advice."
+          ],
+          "answer": "C) Be cautious and avoid sending money to someone you have only met online."
+        },
+        {
+          "question": "Why is it important to be wary of requests for money from online acquaintances?",
+          "options": [
+            "A) The person could be a scammer pretending to have romantic feelings.",
+            "B) It is difficult to verify the true identity and intentions of someone you have only met online.",
+            "C) Sending money could lead to further financial exploitation.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    },
+    {
+      "scenario": "Utility Bill Scam",
+      "description": "You receive a phone call from someone claiming to be from your utility company. They state that your bill is overdue and threaten to cut off your service unless you make an immediate payment over the phone.",
+      "questions": [
+        {
+          "question": "How should you respond to this phone call?",
+          "options": [
+            "A) Make the payment over the phone to avoid service disruption.",
+            "B) Ask for more details and write down the caller's information.",
+            "C) Hang up and call your utility company directly using the number on your bill.",
+            "D) Agree to pay but ask for an extension."
+          ],
+          "answer": "C) Hang up and call your utility company directly using the number on your bill."
+        },
+        {
+          "question": "Why is it important to verify the legitimacy of such calls before making a payment?",
+          "options": [
+            "A) The caller could be a scammer trying to steal your financial information.",
+            "B) Utility companies typically send written notices before cutting off service.",
+            "C) Making a payment without verification could lead to financial loss.",
+            "D) All of the above."
+          ],
+          "answer": "D) All of the above."
+        }
+      ]
+    }
+  ]
+}
